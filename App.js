@@ -5,7 +5,7 @@ import { ThemeProvider } from "styled-components/native";
 import { NavigationContainer } from "@react-navigation/native";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import { Ionicons } from "@expo/vector-icons";
-
+import { restuarantsRequest } from "./src/services/restuarants/restuarants.service";
 
 import {
   useFonts as useOswald,
